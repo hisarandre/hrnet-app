@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  background-color: $body-color;
+  transition: $tran-01;
+  overflow-x: hidden;
+}
+
+.main-wrapper {
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 250px;
+  height: 100vh;
+  width: calc(100% - 250px);
+  background-color: $body-color;
+  transition: $tran-02;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media #{$big-down} {
+    left: 90px;
+    width: calc(100% - 90px);
+  }
+}

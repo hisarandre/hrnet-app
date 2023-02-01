@@ -1,0 +1,13 @@
+.employees-wrapper {
+  width: 75%;
+  min-height: 100vh;
+  overflow-x: auto;
+
+  @media #{$big-down} {
+    width: 90%;
+  }
+
+  @media #{$medium-down} {
+    width: 98%;
+  }
+}

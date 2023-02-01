@@ -1,0 +1,15 @@
+button {
+  background: $primary-color;
+  height: 40px;
+  border-radius: 6px;
+  margin: 10px 0 10px 0;
+  padding: 0 20px 0 20px;
+
+  &:hover {
+    background: darken($primary-color, 2%);
+  }
+
+  &:disabled {
+    background: darken($body-color, 10%);
+  }
+}
